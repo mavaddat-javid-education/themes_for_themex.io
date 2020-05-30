@@ -1,21 +1,21 @@
 ### How to install a theme
 
-In order to install a theme to your Open edX you need to do the
-following:
+To install a theme to your Open edX instance, you'll need to follow these
+steps:
 
-1.  Choose a theme and copy-paste its branch name. You are going to put
-    theme branch name into the script.
+1.  Choose a theme and copy-paste its branch name. Remember this. You are going to put
+    the theme branch name into the script.
 
 2.  Go to your Open edX server via WSL2 or SSH. Make sure you
-    use fullstack version. 
+    use the fullstack version. 
 
-3.  Run the script 
+3.  Run the script `update_theme.sh`
 
 4.  Enjoy the new awesome look of your Open edX 😎
 
 Everything else the script will do for you.
 
-#### Now let's do it step by step.
+#### Detailed procedure (step-by-step)
 
 ------------------------------------------------------------------------
 
@@ -23,7 +23,7 @@ Everything else the script will do for you.
 
 Choose a theme. You can try the themes on the @raccoongang 
 [themex.io](https://themex.io/) page. Or you can find the available themes
-and their Open edX version from the list below:
+and their respective Open edX versions from the list below:
 
 -   Open edX Dogwood fullstack version
 
