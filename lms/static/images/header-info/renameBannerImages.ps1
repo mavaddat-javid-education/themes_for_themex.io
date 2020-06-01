@@ -1,0 +1,1 @@
+Get-ChildItem -Path "$PSScriptRoot" -Recurse -Include @("*.svg", "*.png") | ForEach-Object { if ( $_.Name -match "banner" ) { Rename-Item -NewName "$($_.Name.ToLower() -replace " ",'')" -Path $(Resolve-Path $_)} }
